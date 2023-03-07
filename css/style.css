@@ -9,11 +9,10 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    height: 50px;
     display: block;
     display: flex;
     justify-content:space-around;
-    
+    border-bottom: 3px inset #333;
   }
   
   nav li {
@@ -27,5 +26,11 @@ body {
     
   }
   
+  /* Nav bar psuedo states */
+  nav li:hover 
+  
+  nav li:active
+
+
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
