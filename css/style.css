@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content:space-around;
     border-bottom: 3px inset #333;
+    background-color: rgb(138, 29, 227);
   }
   
   nav li {
@@ -23,9 +24,17 @@ body {
     margin-left: 2.5%;
     padding-right: 2.5;
     text-decoration: none;
-    
+    border: white 1.5px solid;
   }
-  
+
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  /* NAV LINKS CLICKABLE OUTSIDE OF NAV BAR */
+
+
   /* Nav bar psuedo states */
   nav li:hover 
   
