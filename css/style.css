@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: #f4eebe;
   }
    
   nav ul {
@@ -35,7 +36,6 @@ body {
   }
   /* NAV LINKS CLICKABLE OUTSIDE OF NAV BAR */
 
-
   /* Nav bar psuedo states */
   nav li:hover {
     background-color: rgba(137, 33, 222, 0.735);
@@ -54,6 +54,11 @@ body {
     color: #49b;
   }
 
+  /* main styling */
+
+  /* main {
+    background-color: #f4eebe;
+  } /*
 
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
@@ -61,21 +66,18 @@ body {
   /* CATS styles */
 
   .polaroid {
-    background-color: #f4eebe;
+    background-color: #f4e7ce;
   }
 
   /* cat section media */
 
-  @media (max-width: 575px) {
-
-    section.cat-pro-area {
-      background-color: #f4e7ce;
-    }
+  /* x-small and mobile */
+  @media screen (max-width: 575px) {
 
     .polaroid {
       width: auto;
       min-width: 300px;
-      height:632px;
+      height: 632px;
       padding: 5px;
       margin: 180px 24px;
     }
@@ -85,6 +87,9 @@ body {
       height: 300px;
     } 
 
+  }
 
+  /* small and tablet screens */
+  @media screen (min-width: 568px) and (max-width: 767px) {
 
   }
