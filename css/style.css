@@ -22,9 +22,10 @@ body {
     height: 50px;
     display: inline-block;
     margin-left: 2.5%;
-    padding-right: 2.5;
+    margin-right: 2.5%;
     text-decoration: none;
     border: white 1.5px solid;
+    width: 19vw;
   }
 
   nav li a {
@@ -36,10 +37,54 @@ body {
 
 
   /* Nav bar psuedo states */
-  nav li:hover 
+  nav li:hover {
+    background-color: rgba(137, 33, 222, 0.735);
+    font-size: 22px;
+    font-weight: bold;
+  }
   
-  nav li:active
+  nav li a:hover {
+    text-decoration: none;
+    color: #efe;
+  }
+  nav li:active {
+    background-color: rgba(111, 15, 189, 0.347);
+    padding-top: 3px;
+    font-size: 20px;
+    color: #49b;
+  }
 
 
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
+
+  /* CATS styles */
+
+  .polaroid {
+    background-color: #f4eebe;
+  }
+
+  /* cat section media */
+
+  @media (max-width: 575px) {
+
+    section.cat-pro-area {
+      background-color: #f4e7ce;
+    }
+
+    .polaroid {
+      width: auto;
+      min-width: 300px;
+      height:632px;
+      padding: 5px;
+      margin: 180px 24px;
+    }
+    
+    img.cat-profile {
+      width: 300px;
+      height: 300px;
+    } 
+
+
+
+  }
