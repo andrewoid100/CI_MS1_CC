@@ -90,6 +90,7 @@ body {
   .polaroid p {
     width: 300px;
     margin: 20% auto 17%;
+    font-family: 'Allan', cursive;
   }
 
   h2.name {
