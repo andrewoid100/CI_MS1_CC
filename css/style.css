@@ -75,21 +75,28 @@ body {
 
   .polaroid {
     
-    height: 960px;
-    width: 80vh;
-    margin: 0 auto;
+    height: 582px;
+    width: 432px;
+    margin: 218px auto;
     background-color: #f4e7ce;
+    background-color: ivory;
   }
+
+  /*This id closes the gap between the first cat profile and the header area*/
+  /*FIX EDIT ADD: [same exception to the media query rule...] (for first and second polaroid) [...for large screen sizes] if inline-block */
+  #top-cat-section {
+    margin-top: 35px;
+  } 
 
   img.cat-portrait {
     width: 300px;
     height: 300px;
-    margin: 16% auto 0;
+    margin: 20px 66px 0;
   }
 
   .polaroid p {
     width: 300px;
-    margin: 20% auto 17%;
+    margin: 0 auto;
     font-family: 'Allan', cursive;
   }
 
