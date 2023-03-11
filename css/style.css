@@ -70,7 +70,9 @@ body {
   .cats-body {
     background-image: url("/images/modernrestaurant.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .cats-intro {
