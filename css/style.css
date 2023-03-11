@@ -77,9 +77,11 @@ body {
     
     height: 582px;
     width: 432px;
-    margin: 218px auto;
+    margin: 150px auto;
     background-color: #f4e7ce;
     background-color: ivory;
+    border: 1.5px solid black;
+    border-style: ridge;
   }
 
   /*This id closes the gap between the first cat profile and the header area*/
@@ -92,6 +94,7 @@ body {
     width: 300px;
     height: 300px;
     margin: 20px 66px 0;
+    border: 4px rgb(197, 233, 247) groove;
   }
 
   .polaroid p {
@@ -132,5 +135,3 @@ body {
     
     
   }
-
-  
