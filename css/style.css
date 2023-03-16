@@ -58,13 +58,21 @@ body {
   /* it is generic */
 
   /* main styling */
+  /* background-color: #f4eebe */
 
-  /* main {
-    background-color: #f4eebe;
-  } /*
+  /* Menu styles */
 
+  .menu {
+    border: solid 2px black;
+    border-style: ridge;
+    margin-top: 120px;
+    /* I think setting a left margin creates an identical right but we'll see (and I'll fix it if I have to) */
+    width: auto;
+    margin-left: 12%;
+    padding: 3.5%;
+  }
 
-
+  
   /* CATS styles */
 
   .cats-body {
