@@ -88,23 +88,13 @@ body {
 
   .menu-section p {
     text-align: left;
-    display: block;
-  }
-
-  .menu-section span {
-    /* margin-left: 40px; */
-    display: inline-flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
-    text-align: right;
-    margin-right: 2em;
   }
 
   /* Menu media quueries */
 
   @media screen (max-height: 767px) {
     div.menu-section {
-      max-width: 98%%;
+      max-width: 98%;
     }
 
     .menu {
@@ -113,7 +103,12 @@ body {
     }
   }
 
-
+  @media (max-width: 768px) and (min-width: 580px) {
+    div.menu-section > {
+      /*FIX doesn't work */
+      max-width: 50%;
+    }
+  }
   
   /* CATS styles */
 
