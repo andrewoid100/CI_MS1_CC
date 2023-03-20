@@ -107,16 +107,31 @@ body {
 
   /* Menu background images  */
 
+  /* FIX download the images and compress them or crop then add to images folder then change the url to filepath in order to save on kilobytes */
   .menu-image {
     background-color: rgba(22, 22, 22, 38%);
     background-size:cover;
     background-blend-mode:hard-light;
     }
 
+  #white-wine {
+    background-image: url(https://c.pxhere.com/photos/9c/eb/wine_pouring_sommelier_champagne_party-723836.jpg!d);
+    background-position: right;
+  }
+
+  #rose-wine {
+    background-image: url(https://c0.wallpaperflare.com/preview/865/974/473/champagne-close-up-drink-glass.jpg);
+  }
   
   #soft-drinks {
     background-image: url(https://c1.peakpx.com/wallpaper/718/91/745/drink-delicious-cola-coke-lemonade-wallpaper-preview.jpg);
     }
+
+    #chilled-juice {
+      background-image: url(https://media01.stockfood.com/largepreviews/NDE0NTI1OA==/00133718-One-Glass-of-Orange-Juice-Condensation.jpg);
+      background-position: center;
+    }
+
 
   /* Menu media quueries */
 
