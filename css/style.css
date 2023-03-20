@@ -54,7 +54,7 @@ body {
     color: #49b;
   }
 
-  
+  /* h1 tags centered in menu styles /*
   
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
@@ -93,8 +93,13 @@ body {
   .menu-section p {
     text-align: left;
   }
-
-  div.menu h2 {
+ 
+  #menu-h1 {
+    margin-top:1em;
+  }
+  
+  /* center heading + p elements */
+  div.menu h2, div.menu-section h3, .menu-intro, h1 {
     display: flex;
     align-items: center;
     justify-content: center;
