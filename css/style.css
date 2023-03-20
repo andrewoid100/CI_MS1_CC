@@ -109,18 +109,13 @@ body {
 
   .menu-image {
     background-color: rgba(22, 22, 22, 38%);
+    background-size:cover;
     background-blend-mode:hard-light;
-  }
+    }
 
   
   #soft-drinks {
     background-image: url(https://c1.peakpx.com/wallpaper/718/91/745/drink-delicious-cola-coke-lemonade-wallpaper-preview.jpg);
-    }
-
-    .menu-image {
-    background-color: rgba(22, 22, 22, 38%);
-    background-size:cover;
-    background-blend-mode:hard-light;
     }
 
   /* Menu media quueries */
@@ -138,6 +133,7 @@ body {
 
   /* menu section background images */
 
+  /* FIX probably can remove properties from this id except for the image */
   #red-wine {
     /* background-image:linear-gradient(rgba(25, 25, 26, 0.769), rgba(25, 25, 26, 0.769); */
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Pouring_red_wine_into_a_glass.jpg/600px-Pouring_red_wine_into_a_glass.jpg?20110910152715);
