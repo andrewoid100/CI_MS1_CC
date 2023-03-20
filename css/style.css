@@ -107,7 +107,21 @@ body {
 
   /* Menu background images  */
 
+  .menu-image {
+    background-color: rgba(22, 22, 22, 38%);
+    background-blend-mode:hard-light;
+  }
 
+  
+  #soft-drinks {
+    background-image: url(https://c1.peakpx.com/wallpaper/718/91/745/drink-delicious-cola-coke-lemonade-wallpaper-preview.jpg);
+    }
+
+    .menu-image {
+    background-color: rgba(22, 22, 22, 38%);
+    background-size:cover;
+    background-blend-mode:hard-light;
+    }
 
   /* Menu media quueries */
 
