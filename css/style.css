@@ -53,6 +53,8 @@ body {
     font-size: 20px;
     color: #49b;
   }
+
+  
   
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
@@ -61,6 +63,8 @@ body {
   /* background-color: #f4eebe */
 
   /* Menu styles */
+
+
 
   .menu {
     border: solid 2px black;
@@ -90,6 +94,11 @@ body {
     text-align: left;
   }
 
+  div.menu h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   /* Menu media quueries */
 
   @media screen (max-height: 767px) {
