@@ -132,6 +132,39 @@ body {
       background-position: center;
     }
 
+    #desserts {
+      background-image: url(https://c2.peakpx.com/wallpaper/254/779/721/dessert-cake-sweet-eat-cream-wallpaper-preview.jpg);
+      background-position: center;
+    }
+
+    #snacks {
+      background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4OTI5ODk4LWltYWdlLWt3dnV1MGNpLmpwZw.jpg);
+      background-position: bottom;
+    }
+
+    #starters {
+      background-image: url(https://p0.pxfuel.com/preview/766/361/151/bread-baguette-baked-herbs.jpg);
+    }
+
+    #sides {
+      background-image: url(https://p1.pxfuel.com/preview/185/733/140/pie-appetizer-in-menu-istanbul.jpg);
+      background-position: center;
+    }
+
+    #salads {
+      background-image: url(https://www.picserver.org/assets/library/2020-11-02/originals/salad03.jpg);
+      background-position: center;
+    }
+
+    #classics {
+      background-image: url(https://p1.pxfuel.com/preview/936/430/508/pasta-spaghetti-basil-food.jpg);
+      background-position: center;
+    }
+
+    #pizza {
+      background-image: url(https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-cooking.jpg);
+    }
+
 
   /* Menu media quueries */
 
