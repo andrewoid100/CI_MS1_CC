@@ -97,13 +97,18 @@ body {
   #menu-h1 {
     margin-top:1em;
   }
-  
+
   /* center heading + p elements */
   div.menu h2, div.menu-section h3, .menu-intro, h1 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
+  /* Menu background images  */
+
+
+
   /* Menu media quueries */
 
   @media screen (max-height: 767px) {
@@ -117,13 +122,22 @@ body {
     }
   }
 
-  @media (max-width: 768px) and (min-width: 580px) {
-    div.menu-section > {
-      /*FIX doesn't work */
-      max-width: 50%;
-    }
+  /* menu section background images */
+
+  #red-wine {
+    /* background-image:linear-gradient(rgba(25, 25, 26, 0.769), rgba(25, 25, 26, 0.769); */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Pouring_red_wine_into_a_glass.jpg/600px-Pouring_red_wine_into_a_glass.jpg?20110910152715);
+    background-color: rgba(22, 22, 22, 38%);
+    
+    /* background-blend-mode: color-burn; */
+    background-blend-mode:hard-light;
+    /* background-blend-mode: multiply; */
+    /* background-position: center; */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: rgba(25, 25, 26, 0.769); */
   }
-  
+
   /* CATS styles */
 
   .cats-body {
