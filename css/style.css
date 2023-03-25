@@ -56,7 +56,12 @@ body {
     color: #49b;
   }
 
-  /* h1 tags centered in menu styles /*
+  /* Home page */
+
+  div.carousel-item img {
+    object-position: center;
+    object-fit: fill;
+  }
   
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
