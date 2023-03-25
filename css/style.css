@@ -58,6 +58,9 @@ body {
 
   /* Index Home page */
 
+  /* FIX : change image dimensions and adjust/remove padding with media query for different screen sizes */
+
+  /* landing carousel */
   #landing-carousel {
     width: 85%;
     margin: auto;
@@ -74,12 +77,44 @@ body {
     padding:unset;
   }
 
-
   div.carousel-item img {
     object-position: center;
     object-fit: fill;
   }
   
+  /* index main */
+  main.home-page {
+    background-image: url(/images/tableflowers.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;background-size: cover;
+    
+  }
+
+  #about {
+    border-radius: 1px;
+    border: 3px solid slategrey;
+    background-color: #f4eebe;
+  }
+/* 
+  .button {
+    background-color:azure;
+    background-color:antiquewhite;
+    border: 3.5px rgb(24, 23, 23);
+    border-style:outset;
+    padding: 0.4em 3em;
+    margin: auto;
+  }
+
+  .button:active {
+    border-style:inset;
+    border: 2px;
+    border: 3.5px rgb(24, 23, 23);
+    border-style:inset;
+    box-shadow:3px;
+  }
+   */
+
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
 
