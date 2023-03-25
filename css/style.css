@@ -12,33 +12,35 @@ body {
     margin: 0;
     display: block;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     border-bottom: 3px inset #333;
     background-color: rgb(138, 29, 227);
   }
   
   nav li {
     font-size: 20px;
-    line-height: 50px;
-    height: 50px;
+    line-height: 38px;
+    height: 38px;
     display: inline-block;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    /* margin-left: 2.5%;
+    margin-right: 2.5%; */
     text-decoration: none;
-    border: white 1.5px solid;
+    border: white 2px solid;
+    border-radius: 3px;
     width: 19vw;
+    color: #fff;
+    border: 1px solid #fff;
   }
 
   nav li a {
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    
   }
-  /* NAV LINKS CLICKABLE OUTSIDE OF NAV BAR */
 
   /* Nav bar psuedo states */
   nav li:hover {
     background-color: rgba(137, 33, 222, 0.735);
+    background-color: rgba(100, 20, 300, 0.735);
     font-size: 22px;
     font-weight: bold;
   }
@@ -48,22 +50,158 @@ body {
     color: #efe;
   }
   nav li:active {
-    background-color: rgba(111, 15, 189, 0.347);
+    background-color: rgb(111, 15, 189);
     padding-top: 3px;
     font-size: 20px;
     color: #49b;
+  }
+
+  /* Home page */
+
+  div.carousel-item img {
+    object-position: center;
+    object-fit: fill;
   }
   
   /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
   /* it is generic */
 
   /* main styling */
+  /* background-color: #f4eebe */
 
-  /* main {
-    background-color: #f4eebe;
-  } /*
+  /* Menu styles */
 
 
+
+  .menu {
+    border: solid 2px black;
+    border-style: ridge;
+    margin-top: 120px;
+    width: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1.2% 0;
+  }
+
+  div.menu-section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .menu-section h3 {
+    display: block; 
+    width: full;
+    line-height: 3rem;
+    height: 3em;
+  }
+
+  .menu-section p {
+    text-align: left;
+  }
+ 
+  #menu-h1 {
+    margin-top:1em;
+  }
+
+  /* center heading + p elements */
+  div.menu h2, div.menu-section h3, .menu-intro, h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Menu background images  */
+
+  /* FIX download the images and compress them or crop then add to images folder then change the url to filepath in order to save on kilobytes */
+  .menu-image {
+    background-color: rgba(22, 22, 22, 38%);
+    background-size:cover;
+    background-blend-mode:hard-light;
+    }
+
+  #white-wine {
+    background-image: url(https://c.pxhere.com/photos/9c/eb/wine_pouring_sommelier_champagne_party-723836.jpg!d);
+    background-position: right;
+  }
+
+  #rose-wine {
+    background-image: url(https://c0.wallpaperflare.com/preview/865/974/473/champagne-close-up-drink-glass.jpg);
+  }
+  
+  #soft-drinks {
+    background-image: url(https://c1.peakpx.com/wallpaper/718/91/745/drink-delicious-cola-coke-lemonade-wallpaper-preview.jpg);
+    }
+
+    #chilled-juice {
+      background-image: url(https://media01.stockfood.com/largepreviews/NDE0NTI1OA==/00133718-One-Glass-of-Orange-Juice-Condensation.jpg);
+      background-position: center;
+    }
+
+    #desserts {
+      background-image: url(https://c2.peakpx.com/wallpaper/254/779/721/dessert-cake-sweet-eat-cream-wallpaper-preview.jpg);
+      background-position: center;
+    }
+
+    #snacks {
+      background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4OTI5ODk4LWltYWdlLWt3dnV1MGNpLmpwZw.jpg);
+      background-position: bottom;
+    }
+
+    #starters {
+      background-image: url(https://p0.pxfuel.com/preview/766/361/151/bread-baguette-baked-herbs.jpg);
+    }
+
+    #sides {
+      background-image: url(https://p1.pxfuel.com/preview/185/733/140/pie-appetizer-in-menu-istanbul.jpg);
+      background-position: center;
+    }
+
+    #salads {
+      background-image: url(https://www.picserver.org/assets/library/2020-11-02/originals/salad03.jpg);
+      background-position: center;
+    }
+
+    #classics {
+      background-image: url(https://p1.pxfuel.com/preview/936/430/508/pasta-spaghetti-basil-food.jpg);
+      background-position: center;
+    }
+
+    #pizza {
+      background-image: url(https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-cooking.jpg);
+    }
+
+
+  /* Menu media quueries */
+
+  @media screen (max-height: 767px) {
+    div.menu-section {
+      max-width: 98%;
+    }
+
+    .menu {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
+  /* menu section background images */
+
+  /* FIX probably can remove properties from this id except for the image */
+  #red-wine {
+    /* background-image:linear-gradient(rgba(25, 25, 26, 0.769), rgba(25, 25, 26, 0.769); */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Pouring_red_wine_into_a_glass.jpg/600px-Pouring_red_wine_into_a_glass.jpg?20110910152715);
+    background-color: rgba(22, 22, 22, 38%);
+    
+    /* background-blend-mode: color-burn; */
+    background-blend-mode:hard-light;
+    /* background-blend-mode: multiply; */
+    /* background-position: center; */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-color: rgba(25, 25, 26, 0.769); */
+  }
 
   /* CATS styles */
 

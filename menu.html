@@ -16,175 +16,259 @@
     <body>
         <nav>
             <ul>
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="menu.html" class="nav-link">Menu</a></li>
-                <li><a href="cats.html" class="nav-link">Meet The Cats</a></li>
-                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
+                <a href="index.html"><li>Home</li></a>
+                <a href="menu.html"><li>Menu</li></a>
+                <a href="cats.html"><li>Meet The Cats</li></a>
+                <a href="gallery.html"><li>Gallery</li></a>
+                <a href="about.html"><li>About</li></a>
             </ul>
         </nav>
 
         <main>
-            <h1>Menu</h1>
-            <p>Many of our foods are tailored to cats but please be mindful before feeding them. Some are trying to cut down on their food intake.</p>
+            <h1 id="menu-h1">Menu</h1>
+            <p class="menu-intro">Many of our foods are tailored to cats but please be mindful before feeding them. Some are trying to cut down on their food intake.</p>
+
 
             <div class="menu">
-                <div class="menu-section">
+                <div class="container">
                     <h2>Drinks</h2>
-                    <div class="menu-subsection">
-                        <h3>Soft Drinks</h3>
-                        <ul>
-                            <li>Lemonade</li>
-                            <li>Sprite</li>
-                            <li>Coca-Cola</li>
-                            <li>Fanta</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Hot Drinks</h3>
-                        <ul>
-                            <li>Coffee</li>
-                            <li>Tea</li>
-                            <li>Herbal Tea</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Bottled Drinks</h3>
-                        <ul>
-                            <li>Mineral water</li>
-                            <li>Sparkling water</li>
-                            <li>Oasis</li>
-                            <li>Tropicana orange juice</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Chilled Juice</h3>
-                        <ul>
-                            <li>Fresh Orange Juice</li>
-                            <li>Fresh Apple Juice</li>
-                            <li>Pineapple Juice</li>
-                            <li>Mango Juice</li>
-                        </ul>
-                    </div>
-                </div>
+                    
+                    <div class="row">
+                        <!-- Large breakpoints is 3 or 4 corresponding to how many wine drinks there are, 3 or 4 -->
+                        <div class="menu-image menu-section col-12 col-sm-4 col-lg-4" id="red-wine">
+                            <h3>Red Wine</h3>
+                            <p><em>All glasses</em><strong>£5 each</strong></p>
 
-                <div class="menu-section">
-                    <h2>Snacks</h2>
-                    <!-- General Snacks-->
-                        <ul>
-                            <li>Mozzarella Sticks</li>
-                            <li>Fried Calamari</li>
-                            <li>Celery Sticks</li>
-                        </ul>
+                            <p><strong>Merlot</strong></p>
+
+                            <p><strong>Rioja</strong></p>
+
+                            <p><strong>Malbec</strong></p>
+
+                            <p><strong>Garnacha</strong></p>
+
+                            <p><strong>Cabernet Sauvignon</strong></p>
+                            
+                            <p><strong>Shiraz</strong></p>
+
+                            <p><strong>Pinot Noir</strong></p>
+
+                            <p><strong>Pillastro Primitivo</strong></p>
+                        </div>
+
+                        <div class="menu-image menu-section col-12 col-sm-4 col-lg-4" id="white-wine">
+                            <h3>White Wine</h3>
+                            <p><em>All glasses</em><strong>£5 each</strong></p>
+
+                            <p><strong>Pinot Grigio</strong></p>
+
+                            <p><strong>Rioja</strong></p>
+
+                            <p><strong>Sauvignon Blanc</strong></p>
+
+                            <p><strong>Albariño</strong></p>
+
+                            <p><strong>Malvasia</strong></p>
+                        </div>
+
+                        <div class="menu-image menu-section col-12 col-sm-4 col-lg-4" id="rose-wine">
+                            <h3>Rosé Wine</h3>
+                            <p><em>Each glass</em><strong>£6.8</strong></p>
+
+                            <p><strong>Ciaggo Pinot Grigio</strong></p>
+
+                            <p><strong>Chiarreto di Bardolino</strong></p>
+ 
+                            <p><strong>Riviera del Garda Classico Chiaretto</strong></p>
+                            
+                            <h3>Sparkling Wine</h3>
+
+                            <p><strong>Prosecco</strong>£7</p>
+
+                            <p><strong>Rosé Prosecco</strong>£7.8</p>
+
+                            <p><strong>Champagne</strong>£55/<em>bottle</em></p>
+                        </div>
+                    </div>
+
+                    <!-- Drinks row -->
+                    <div class="row">
+                        <div class="menu-section menu-image col-12 col-sm-6" id="soft-drinks">
+                            <h3>Soft Drinks</h3>
+
+                            <p><strong>Coca-Cola</strong></p>
+                            <p><strong>Fanta Cola</strong></p>
+                            <p><strong>Sprite</strong></p>
+                            <p><strong>Cloudy Lemonade</strong></p>
+                            <p><strong>Ginger Beer</strong></p>
+                            <p><strong></strong></p>
+                        </div>
+                        <div class="menu-image menu-section col-12 col-sm-6" id="chilled-juice">
+                            <h3>Chilled Juice</h3>
+
+                            <p><strong>Orange Juice</strong></p>
+                            <p><strong>Clementine Juice</strong></p>
+                            <p><strong>Apple Juice</strong></p>
+                            <p><strong>Strawberry Juice</strong></p>
+                            <p><strong>Pineapple Juice</strong></p>
+                        </div>
+                    </div>
                         
-                    <div class="menu-subsection">
-                        <h3>Crisps</h3>
-                        <ul>
-                            <li>Walker's</li>
-                            <li>Wotsits</li>
-                            <li>Wholegrain Crisps</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Fruit</h3>
-                        <ul>
-                            <li>Pear</li>
-                            <li>Apple slices</li>
-                            <li>Watermelon chunks</li>
-                            <li>Canteloupe slices</li>
-                            <li>Cranberries</li>
-                            <li>Mango</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Pretzels</h3>
-                        <ul>
-                            <li>Soft Pretzels</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="menu-section">
-                    <h2>Mains</h2>
-                    <div class="menu-subsection">
-                        <h3>Waffles</h3>
-                            <ul>
-                                <li>Chicken waffle🤤</li>
-                                <li>Bacon waffle</li>
-                                <li>Chicken and bacon</li>
-                                <li>Cheese and herb</li>
-                            </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Pasta</h3>
-                        <ul>
-                            <li>Spaghetti bolognese</li>
-                            <li>Penne arrabbiata</li>
-                            <li>Penne carbonara</li>
-                            <li>Gnocchi di patate</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Pizza</h3>
-                        <ul>
-                            <li>Margherita</li>
-                            <li>Pepperoni</li>
-                            <li>Florentine pizza</li>
-                            <li>Funghi pizza</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Risotto</h3>
-                        <ul>
-                            <li>Arborio</li>
-                            <li>Baldo</li>
-                            <li>Padano</li>
-                        </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Salads</h3>
-                        <ul>
-                            <li>Ceaser's salad</li>
-                            <li>Shrimp salad</li>
-                            <li>Crouton salad</li>
-                            <li>Greek Salad</li>
-                            <li>Salmon and avocado</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="menu-section">
-                    <h2>Sides</h2>
-                    <div class="menu-subsection">
-                        <h3>Fries</h3>
-                        <ul>
-                            <li>Skin-on fries</li>
-                            <li>Fries (with cheese)</li>
-                            <li>Loaded Fries (with pulled pork)</li>
-                            <li>Loaded Fries (with turkey pieces)</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="menu-section">
-                    <h2>Desserts and Treats</h2>
-                    <ul>
-                        <li>Banana bread</li>
-                        <li>Souffle</li>
-                        <li>Pancake</li>
-                        <li>Cookies</li>
-                        <li>Donuts</li>
-                    </ul>
-                    </div>
-                    <div class="menu-subsection">
-                        <h3>Ice cream</h3>
-                        <ul>
-                            <li>Vanilla</li>
-                            <li>Strawberry</li>
-                        </ul>
+                    <!-- Desserts row -->
+                    <h2>Treats</h2>
+                    <div class="row">
+                        <div class="menu-image menu-section col-12 col-sm-12 col-md-6 col-lg-6" id="desserts">
+                            <h3>Desserts</h3>
+                            <p><strong>Cupcake</strong></p>
+                            <p><strong>Carrot Cake</strong></p>
+                            <p><strong>Biscoff Bun</strong></p>
+                        </div>
+                                
+                        <div class="menu-image menu-section col-12 col-md-6 col-lg-6" id="snacks">
+                            <h3>Snacks</h3>
+                            <p><strong>Walker's Crisps</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>
-    </main>
+            
+            <div class="menu">
+                <!-- Have to (figure out how to) add the container at some point -->
+                <div class="container">
+                    <div class="row">
+                        <div class="menu-image menu-section col-12 col-md-6" id="starters">
+                            <!-- <div class="menu-subheading"> -->
+                                <h3>Starters</h3>
+                      <!-- </div> -->
+                            <p><strong>Garlic Bread</strong>(v)
+                            </br><em>Served with butter<span>£3</span></em>
+                            </br><em>With olives<span>£3.2</span></em>
+                            </br><em>With tomato and fresh basil<span>£4.4</span></em>
+                            </br><em>To share</em><span>+£2</span></p>
+
+                            <p><strong>Dough Balls</strong>(ve)<span>£5</span>
+                            </br><em>With Garlic Butter</em>(v)<span>£5.7</span>
+                            </br><em>With Halloumi</em><span>£6.5</span></p>
+
+                            <p><strong>Bruschetta Pomodoro</strong><span>£6</span>(v)
+                            </br>Freshly sliced cherry tomatoes sprinkled with garlic, infused with hints of rosemary and natural black pepper, topped with fresh red onions.</p>
+
+                            <p><strong>Funghi Bruschetta</strong><span>£5.6</span>(v)
+                            </br>Gently roasted mushrooms seasoned with thyme, parsley and butter.</p>
+                            
+                            <p><strong>Baked Mushrooms</strong>(ve)<span>£6</span>
+                            </br>Porcini, green beans and broccoli.</p>
+                            
+
+                            <p><strong>Parmigiana di melanzane</strong>(v)<span>£8</span>
+                            <br>Sliced eggplant gently fried in olive oil, layered with cheese and tomato. Enjoy!</p>
+                        </div> 
+                        
+                        <div class="menu-image menu-section col-12 col-md-3" id="sides">
+                            <h3>Sides</h3>
+                            
+                            <p><strong>French Fries</strong>(ve)<span>£3</span>
+                            </br>Thin and crispy french fries, coated with garlic butter and seasoned appropriately.
+                            </br><em>With Cheese</em><span>+£1</span>
+                            </br>With parmezan<span>£1.3</span>
+                            </br><em>Halloumi Fries</em><span>+£2</span></p>
+
+                            <p><strong>Fried Mushrooms</strong>(ve)<span>£4.6</span>
+                            </br>Portobello mushrooms lovingly fried in virgin olive oil.</p>
+
+                            <p><strong>Morel and Pea rigatoni</strong>(v)<span>£8</span>
+                            </br>Exquisite morel mushrooms, blanched peas,served with fettucini. A true delight!</p>
+                            
+                            
+                            
+                        </div>
+                        <div class="menu-image menu-section col-12 col-md-3" id="salads">
+                                <h3>Salads</h3>
+
+                                <p><strong>Mixed Leaf Salad</strong><span>£3.5</span>
+                                </br></p>
+                                
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Mains Menu -->
+            <div class="menu">
+                <!-- Have to (figure out how to) add the container at some point -->
+                <div class="container">
+                    <h2>Mains</h2>
+
+                    <div class="row">
+                        <div class="menu-image menu-section col-12 col-md-6" id="classics">
+
+                            <h3>Cat Classics</h3>
+                        
+                        
+                        <p><strong>Linguini alle Vongole</strong><span>£17</span>
+                        </br>Linguini cooked with clams, freshly selected, parsley, garlic, a splash of white wine and olive oil.</p>
+
+                        <p><strong>Ossobuco alla Milanese</strong><span>£19</span>
+                        </br>Popular Milanese dish, braised veal shanks, delicious root vegetables, white wine, broth and gremolata.</p>
+
+                        <p><strong>Vitello alla Parigiana</strong><span>£22</span>
+                        </br>Veal cutlets, breaded with rizz, and pan-fried with a blend of parmezan cheese, tomato and served with pasta.</p>
+
+                        <p><strong>Carbonara</strong><span>£13</span>
+                        </br>Spaghetti or penne pasta, al dente, cured pork, hard cheese, egg yolks, olive oil.
+                        </br><em>With chicken<span>£13</span></em></span></p>
+
+                        <p><strong>Gnocchi alla Sorrentina</strong><span>£15</span>
+                        </br>Soft potato dumplings, fresh tomato sauce, basil, oregano and a dash of cheese.</p>
+
+                        <p><strong>Penne Arrabiatta</strong><span>£17</span>
+                        </br>A delicious dish cooked with soft penne pasta selected cuts of chicken, cracked black pepper and fresh red chillies.
+                        </br><em>Mozzarella Cheese<span>+£3</span></em></p>
+
+                        <p><strong>Pollo alla Cacciatora</strong><span>£16</span>
+                        </br>Crisp, succulent chicken covered in herb-infused tomato sauce, served with fresh onions and cloves of garlic.</p>
+
+                        <p><strong>Ricotta Spinach al forno</strong>(v)<span>£12</span>
+                        </br>Generous servings of spinach, ricotta and eggs covered in lemon zest, cinamon and cayenne.</p>
+
+                        <p><strong>Spaghetti Bolognese</strong><span>£14</span>
+                        </br>Ground beef with carrots, tomato sauce, onions and fresh herbs in spaghetti.</p>
+
+                        </div>
+
+                        <div class="menu-image menu-section col-12 col-md-6" id="pizza">
+                            <h3>Pizza</h3>
+
+                            <p><strong>Margherita</strong>
+                            </br>Clasic cheese, tomato and oregano on a thin, white dough.</p>
+
+                            <p><strong>American</strong>
+                            </br>Pepperoni, mozzarella, red peppers and tomato.</p>
+
+                            <p><strong>Gamberoni Piccante</strong>
+                            </br>King prawns, goat's cheese, crème fraîche, spinach, fresh green chilli, coriander and spring onion.</p>
+
+                            <p><strong>American Hot</strong>
+                            </br>Pepperoni, jalapeno, red chillies, mozzarella and red pepper.</p>
+
+                            <p><strong>Funghi di Bosco</strong>
+                            </br>Various mushrooms, mozzarella, tomato, garlic, pesto, fresh rosemary and dashings of truffle oil.</p>
+
+                            <p><strong>Pizza Arrabbiata</strong>
+                            </br>Chicken, smoky black pepper, mozzarella, red pepper, fresh red hot chillies and sun-ripened tomatoes.</p>
+
+                            <p><strong>Florentine</strong>
+                            </br>Spinach, free-range eggs, olives, garlic, parmesan, mozzarella and tomato.</p>
+
+                            <p><strong>Four-Cheese Pizza</strong>
+                            </br>A delicious blend of cheese: gouda, mozzarella, parmesan and classic British cheddar.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         
     </body>
+</html>
