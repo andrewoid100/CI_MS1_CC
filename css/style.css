@@ -397,3 +397,19 @@ body {
     
     
   }
+
+  /* about styles */
+
+  main.about {
+    background-color: black;
+    color: white;
+
+  }
+
+  main.about h2 {
+    color: cyan;
+  }
+
+  div.background-about {
+    background-image: linear-gradient((black, transparent, transparent)url(images/sansa full.jpg));
+  }
