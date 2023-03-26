@@ -58,7 +58,9 @@ body {
 
   /* Index Home page */
 
-  /* FIX : change image dimensions and adjust/remove padding with media query for different screen sizes */
+  /* FIX : change image dimensions
+   and adjust/remove padding 
+  with media query for different screen sizes */
 
   /* landing carousel */
   #landing-carousel {
@@ -102,6 +104,26 @@ body {
     border-radius: 1px;
     background-color: #f4f4f4;
     margin-left: auto;
+    display: flex;
+    flex-direction:column;
+    /* justify-content:space-between; */
+    /* justify-items: center; */
+  }
+
+  #cats figure {
+    width: 222px;
+    border: solid 1px black;
+    /* margin-left: 70px; */
+    display: flex;
+    justify-content: center;
+    justify-self:flex-start;
+    flex-direction: column;
+  }
+  figure img.cat-portrait {
+    height: 221px;
+    width:221px;
+    justify-content: center;
+    margin: unset;
   }
 
   @media (min-width: 768px) {
