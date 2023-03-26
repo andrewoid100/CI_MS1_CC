@@ -97,13 +97,38 @@ body {
     background-color: #f4eebe;
   }
 
+  #cats {
+    border: 3px solid slategrey;
+    border-radius: 1px;
+    background-color: #f4f4f4;
+    margin-left: auto;
+  }
+
+  @media (min-width: 768px) {
+    #cats {
+      height: 1100px;
+    }
+
+    #about {
+      max-height: 308px;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 991px) {
+    #about {
+      max-height: 500px;
+    }
+  }
+
   .button {
     background-color:azure;
     background-color:antiquewhite;
     border: 3.5px rgb(24, 23, 23);
     border-style:outset;
     padding: 0.4em 3em;
-    margin: auto;
+    margin: auto; 
+    margin-left: 40%;
+    margin-top: 1.6em;
   }
 
   .button:active {
