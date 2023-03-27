@@ -55,6 +55,11 @@ body {
     font-size: 20px;
     color: #49b;
   }
+ /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
+  /* it is generic */
+
+  /* main styling */
+  /* background-color: #f4eebe */
 
   /* Index Home page */
 
@@ -138,10 +143,10 @@ body {
     text-align: center;
   }
 
-  #menu {
+  /* #menu {
     /* border-radius: 1px; */
     /* border: 3px solid slategrey; */
-    padding: 0;
+    /* padding: 0;
     display: block;
     flex-wrap: wrap;
     flex-direction: column;
@@ -149,10 +154,10 @@ body {
 
   .menu-link {
     height: 50%;
-    border-color:chocolate;
+    border-color:chocolate; */
     /* border-style: double; */
     /* border-width: 2px; */
-    background-position: center;
+    /* background-position: center;
     vertical-align: middle;
     align-content: center;
     justify-content: center;
@@ -178,7 +183,7 @@ body {
   
   #sides-menu {
     background-image: url(https://p1.pxfuel.com/preview/185/733/140/pie-appetizer-in-menu-istanbul.jpg);
-  }
+  } */ 
 
 
   @media (min-width: 768px) {
@@ -191,9 +196,9 @@ body {
       max-height: 308px;
     }
 
-    #menu {
+    /* #menu {
       max-height: 700px;
-    }
+    } */
   }
 
   @media (min-width: 700px) and (max-width: 991px) {
@@ -220,11 +225,7 @@ body {
   }
   
 
-  /* Learned how to make nav above by demonstration in U-CFEdevelopment. */
-  /* it is generic */
-
-  /* main styling */
-  /* background-color: #f4eebe */
+ 
 
   /* Menu styles */
 
