@@ -138,13 +138,61 @@ body {
     text-align: center;
   }
 
+  #menu {
+    /* border-radius: 1px; */
+    /* border: 3px solid slategrey; */
+    padding: 0;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .menu-link {
+    height: 50%;
+    border-color:chocolate;
+    /* border-style: double; */
+    /* border-width: 2px; */
+    background-position: center;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50;
+    display: inline-block;
+  }
+
+  .menu-link h3 {
+    font-size: 35px;
+    color:skyblue;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  #mains {
+    background-image: url(https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-cooking.jpg);
+  }
+  
+  #sides-menu {
+    background-image: url(https://p1.pxfuel.com/preview/185/733/140/pie-appetizer-in-menu-istanbul.jpg);
+  }
+
+
   @media (min-width: 768px) {
     #cats {
       height: 1100px;
+      top:-350px
     }
 
     #about {
       max-height: 308px;
+    }
+
+    #menu {
+      max-height: 700px;
     }
   }
 
