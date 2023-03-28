@@ -217,7 +217,6 @@ body {
   @media (min-width: 768px) {
     #cats {
       height: 1100px;
-      top:-350px
     }
 
     #about {
