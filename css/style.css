@@ -211,9 +211,7 @@ body {
   } */ 
 
   @media (max-width: 768px) {
-    #index-menu {
-      height: 720px;
-    }
+
   }
 
   @media (min-width: 768px) {
@@ -224,10 +222,6 @@ body {
 
     #about {
       max-height: 308px;
-    }
-
-    div.menu-link {
-      margin: 40px auto;
     }
 
     /* #menu {
