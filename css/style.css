@@ -98,12 +98,14 @@ body {
     
   }
 
+  /* about */
   #about {
     border-radius: 1px;
     border: 3px solid slategrey;
     background-color: #f4eebe;
   }
 
+  /* cqts */
   #cats {
     border: 3px solid slategrey;
     border-radius: 1px;
@@ -142,6 +144,23 @@ body {
     font-weight: 350;
     text-align: center;
   }
+
+  /* menu */
+
+  #menu {
+    border-radius: 1px;
+    border: 3px solid slategrey;
+    background-color: #f4eebe;
+  }
+
+  #menu-image {
+    background-color: tomato; /* rbg(35, 10, 10) */
+  }
+
+  #menu-image img {
+    border: 4px rgb(197, 233, 247) groove;
+  }
+
 
   /* #menu {
     /* border-radius: 1px; */
