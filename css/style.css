@@ -226,19 +226,9 @@ body {
       max-height: 308px;
     }
 
-    #index-menu {
-      max-height: 600px;
-    }
-
-    #index-menu img {
-      /* display: block; */
-      margin: 40px auto;
-    }
-
     div.menu-link {
       margin: 40px auto;
     }
-
 
     /* #menu {
       max-height: 700px;
