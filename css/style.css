@@ -147,10 +147,6 @@ body {
 
   /* menu */
 
-
-
-  /* menu */
-/* 
   #index-menu {
     display: block;
     border-radius: 1px;
@@ -160,12 +156,17 @@ body {
 
   #menu-image {
     background-color: tomato; /* rbg(35, 10, 10) */
+    display:inline-block;
   }
 
-  #menu-image img {
+  #index-menu img {
     border: 4px rgb(197, 233, 247) groove;
-  } */
+    margin:40px;
+  }
 
+  #index-menu div {
+    display: inline-block;
+  }
 
   /* #menu {
     /* border-radius: 1px; */
@@ -220,6 +221,10 @@ body {
       max-height: 308px;
     }
 
+    #index-menu {
+      max-height: 380px;
+    }
+
     /* #menu {
       max-height: 700px;
     } */
@@ -237,7 +242,7 @@ body {
     border: 3.5px rgb(24, 23, 23);
     border-style:outset;
     padding: 0.4em 3em;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .button:active {
