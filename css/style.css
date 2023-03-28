@@ -67,6 +67,7 @@ body {
    and adjust/remove padding 
   with media query for different screen sizes */
 
+
   /* landing carousel */
   #landing-carousel {
     width: 85%;
@@ -297,6 +298,10 @@ body {
     justify-content: center;
   }
 
+  .menu-section img {
+    margin-left: auto;
+    margin-right: auto;
+  }
   /* Menu background images  */
 
   /* FIX download the images and compress them or crop then add to images folder then change the url to filepath in order to save on kilobytes */
