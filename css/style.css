@@ -147,7 +147,8 @@ body {
 
   /* menu */
 
-  #menu {
+  #index-menu {
+    display: block;
     border-radius: 1px;
     border: 3px solid slategrey;
     background-color: #f4eebe;
