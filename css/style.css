@@ -517,6 +517,16 @@ body {
 
   /* about styles */
 
+  /* FIX change the tomato color to a more deep color */
+  section.background-tomato {
+    background-color: tomato;
+    border-top:solid powderblue 2px;
+  }
+
+  section.background-cheese {
+    border-top:solid powderblue 2px;
+  }
+
 
   div.background-about {
     background-image: linear-gradient((black, transparent, transparent)url(images/sansa full.jpg));
