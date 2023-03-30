@@ -523,8 +523,30 @@ body {
     border-top:solid powderblue 2px;
   }
 
-  section.background-cheese {
+  section.background-cheese, section.background-tomato {
     border-top:solid powderblue 2px;
+  }
+
+  
+
+  @media (max-width: 767px) {
+    section.background-cheese img, section.background-tomato img {
+      margin: 20px auto 10px;
+      display: block;
+    }
+
+    section.background-cheese, section.background-tomato {
+      border-top:solid powderblue 2px;
+    }
+
+    section.background-cheese p, section.background-tomato p {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    section.background-tomato {
+
+    }
   }
 
 
