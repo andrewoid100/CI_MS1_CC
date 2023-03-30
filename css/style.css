@@ -559,6 +559,12 @@ body {
     section.background-cheese, section.background-tomato {
       padding: 20px 0;
     }
+
+    section.background-cheese img, section.background-tomato img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media (min-width: 1024px) {
