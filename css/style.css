@@ -555,6 +555,30 @@ body {
     }
   }
 
+  @media (min-width:768px) {
+    section.background-cheese, section.background-tomato {
+      padding: 20px 0;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    section.background-cheese, section.background-tomato {
+      padding: 30px 0;
+    }
+
+    section.background-cheese p, section.background-tomato p {
+      vertical-align: middle;
+      padding-top: 10px;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    section.background-cheese, section.background-tomato {
+      padding: 44px 0;
+    }
+  }
 
   div.background-about {
     background-image: linear-gradient((black, transparent, transparent)url(images/sansa full.jpg));
