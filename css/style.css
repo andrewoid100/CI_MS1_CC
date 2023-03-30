@@ -518,6 +518,7 @@ body {
   /* about styles */
 
   /* FIX change the tomato color to a more deep color */
+
   section.background-tomato {
     background-color: tomato;
     border-top:solid powderblue 2px;
@@ -541,6 +542,10 @@ body {
       display: block;
     }
 
+    main.about h1 {
+      margin: 12px auto;
+    }
+
     section.background-cheese, section.background-tomato {
       border-top:solid powderblue 2px;
     }
@@ -560,11 +565,16 @@ body {
       padding: 20px 0;
     }
 
+    main.about h1 {
+      margin: 16px auto 14px;
+    }
+
     section.background-cheese img, section.background-tomato img {
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
+
   }
 
   @media (min-width: 1024px) {
