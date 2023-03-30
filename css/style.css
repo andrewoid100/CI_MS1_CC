@@ -527,7 +527,13 @@ body {
     border-top:solid powderblue 2px;
   }
 
-  
+  section.background-tomato img {
+    border: 4px darkturquoise groove
+  }
+
+  section.background-cheese img {
+    border: 4px tomato groove
+  }
 
   @media (max-width: 767px) {
     section.background-cheese img, section.background-tomato img {
