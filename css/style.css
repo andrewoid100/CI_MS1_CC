@@ -215,6 +215,9 @@ body {
     background-color: unset;
   }
   
+  .menu-section h2 {
+    text-align: center;
+  }
 
   /* #menu {
     /* border-radius: 1px; */
@@ -278,7 +281,7 @@ body {
 
   @media (min-width: 700px) and (max-width: 991px) {
     #about {
-      max-height: 500px;
+      max-height: 1100px;
     }
   }
 
