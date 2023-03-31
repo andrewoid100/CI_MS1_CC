@@ -467,16 +467,22 @@ body {
   }
 
   .cats-intro {
-    /* background-image: linear-gradient(to bottom, rgba(166, 9, 106, 0.4), rgba(85, 24, 147, 0.4), transparent);
-    font-size: 16px; */
     color: maroon;
+    /* different background color because cat styles are unique from other page styles */
     background-color: #efe;
     border: 1.5px groove black;
-    min-width: 500px; /* FIX change for small screen sizes */
-    width: 58%;
+    width: 100%;
     height: auto;
-    margin-left: 21%;
+    min-width: 500px;
     padding:15px;
+    max-height: 272px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cats-intro p {
+    padding: auto 10px;
+    text-align: center;
   }
 
   .polaroid {
@@ -527,11 +533,13 @@ body {
       height: 632px;
       padding: 5px;
       margin: 180px 24px;
+      width: 320px;
     }
     
     img.cat-profile {
       width: 300px;
       height: 300px;
+      margin: 20px auto;
     } 
 
   }
