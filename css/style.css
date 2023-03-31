@@ -135,6 +135,8 @@ body {
     
   }
 
+
+
   /* about */
   #about {
     border-radius: 1px;
@@ -311,6 +313,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #f4eebe;
   }
 
   .menu-section h3 {
@@ -322,6 +325,8 @@ body {
 
   .menu-section p {
     text-align: left;
+    background-color: rgba(244, 231, 206, 0.511);
+    width: auto;
   }
  
   #menu-h1 {
