@@ -207,6 +207,15 @@ body {
     display: inline-block;
   }
 
+  .home-page > div > div > .menu-section {
+    background-color: #f4eebe;
+  }
+
+  .home-page > div > div > .menu-section > p {
+    background-color: none;
+  }
+  
+
   /* #menu {
     /* border-radius: 1px; */
     /* border: 3px solid slategrey; */
@@ -314,6 +323,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #f4eebe;
+    background-color: rgba(51, 51, 51, 0.34);
   }
 
   .menu-section h3 {
@@ -333,6 +343,8 @@ body {
     margin-top:1em;
   }
 
+  .home-page > div > div > .menu-section
+
   /* center heading + p elements */
   div.menu h2, div.menu-section h3, .menu-intro, h1 {
     display: flex;
@@ -348,9 +360,9 @@ body {
 
   /* FIX download the images and compress them or crop then add to images folder then change the url to filepath in order to save on kilobytes */
   .menu-image {
-    background-color: rgba(22, 22, 22, 38%);
+    background-color: rgba(18, 28, 12,, 89%);
     background-size:cover;
-    background-blend-mode:hard-light;
+    background-blend-mode:color-burn;
     }
 
   #white-wine {
