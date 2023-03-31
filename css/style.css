@@ -211,8 +211,8 @@ body {
     background-color: #f4eebe;
   }
 
-  .home-page > div > div > .menu-section > p {
-    background-color: none;
+  .home-page > div > div > .menu-section p {
+    background-color: unset;
   }
   
 
