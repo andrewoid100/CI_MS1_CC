@@ -97,6 +97,10 @@ body {
   /* main styling */
   /* background-color: #f4eebe */
 
+  /* h1 {
+    color: maroon;
+  } */
+
   /* Index Home page */
 
   /* FIX : change image dimensions
@@ -348,7 +352,7 @@ body {
     width: auto;
   }
  
-  #menu-h1 {
+  .menu-h1 {
     margin-top:1em;
   }
 
