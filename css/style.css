@@ -109,16 +109,16 @@ body {
 
 
   /* landing carousel */
+  #landing-carousel-outer {
+    width: 100%;
+    background-color:tomato
+  }
+  
   #landing-carousel {
     width: 85%;
     margin: auto;
     padding: 0 10%;
     background-color:rgb(35, 10, 10);
-  }
-
-  #landing-carousel-outer {
-    width: 100%;
-    background-color:tomato
   }
 
   #landing-carousel > div {
@@ -128,6 +128,13 @@ body {
   div.carousel-item img {
     object-position: center;
     object-fit: fill;
+  }
+
+  @media (max-width: 767px) {
+    #landing-carousel {
+      width: 100%;
+      padding: 0 10%;
+    }
   }
   
   /* index main */
